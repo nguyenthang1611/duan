@@ -357,6 +357,9 @@ ul{
     color: rgb(41,50,78);
     font-weight: 600px;
 }
+.header_bot .container .left .items:hover{
+    background-color: #a29f9f;
+}
 .header_bot .container .right{
     line-height: 4;
 }

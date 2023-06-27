@@ -446,6 +446,9 @@ ul{
     transition: all 0.3s ease;
     margin: 0;
 }
+.header_bot .container .left .items:hover{
+    background-color: #a29f9f;
+}
 .footer-rol ul li a:hover{
     color: #ffffff;
     padding-left: 8px;

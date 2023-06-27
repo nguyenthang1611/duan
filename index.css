@@ -45,7 +45,12 @@
     padding: 15px 16px;
     height: 19px;
     font-weight: 600;
+    transition: 0.3s;
 }
+.header_bot .container .left .items:hover{
+    background-color: #a29f9f;
+}
+
 .header_bot .container .left .items a{
     text-decoration: none;
     text-transform: uppercase;
