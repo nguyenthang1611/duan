@@ -1,0 +1,338 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container2{
+    width: 80%;
+    margin: 0 auto;
+}
+.navbar{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px 10px;
+    position: fixed;
+}
+.navbar .container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-bar{
+    background-color: hsl(252, 30%,90%);
+    border-radius: 20px;
+    padding: 10px;
+}
+.search-bar input[type="search"]{
+    background-color:transparent;
+    width: 300px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.navbar .button{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.signup{
+    padding: 7px 10px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.8s ease;
+    color: white;
+    background-color: aqua;
+}
+.signup:hover{
+    opacity: 1;
+    background-color: #24262b;
+}
+.login{
+    color: #24262b;
+    cursor: pointer;
+}
+.login:hover{
+    text-decoration: underline;
+}
+/*kết thúc CSS search */
+/* mở đầu CSS tin tức */
+.content{
+    font-size: 14px;
+    line-height: 14px;
+    margin: 0px 0px 50px;
+}
+.block{
+    font-size: 14px;
+    line-height: 14px;
+    margin: auto;
+    max-width: 1200px;
+}
+.block-header-title{
+    background-color: #ffffff;
+    color: #29324e;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    padding: 0px 50px;
+}
+.block-content{
+    line-height: 14px;
+    font-size: 14px;
+}
+.post-list{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    line-height: 14px;
+}
+.post-list .post{
+    font-size: 14px;
+    line-height: 14px;
+    margin: 10px 20px 30px;
+    width: 360px;
+}
+
+.post-list .post .title{
+    font-size: 14px;
+    line-height: 14px;
+    margin: 15px 0px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    width: 360px;
+    height: 48px;
+}
+.title a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: black;
+}
+.content .block .block-content .post-list .post .title a:hover{
+    color: red;
+}
+.post-list .post .desc{
+    font-size: 14px;
+    line-height: 21px;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+/*kết thúc CSS tin tức */
+/* mở đàu CSS phân trang */
+.readmore{
+    text-align: center;
+    padding: 32px 0;
+}
+.readmore a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 207px;
+    height: 44px;
+    background: #005ec4;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+}
+.category-paginate{
+     margin-top: 30px;
+}
+.category{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.category-paginate .category li a{
+    width: 36px;
+    height: 36px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    transition: all 0.4s ease;
+    color: black;
+}
+.category-paginate .category li a:hover{
+    background-color: aqua;
+}
+/* kết thúc CSS phân trang */
+/*mở đầu CSS footer*/
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #24262b;
+    padding: 30px 0;
+}
+.footer .container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-rol{
+    width: 222px;
+    padding: 0 15px;
+}
+.footer-rol h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 400;
+    position: relative;
+}
+.footer-rol h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-rol ul li{
+    margin: bottom 10px;
+}
+.footer-rol ul li a{
+    font-size: 16px;
+    padding: 4px 3px;
+    font-weight: 400;
+    width: 200px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    color: #bbbbbb;
+    transition: all 0.3s ease;
+    margin: 0;
+}
+.footer-rol ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer .container .info{
+    color: #ffffff;
+    padding-left: 15px;
+}
+.footer .container .info .f_title{
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+/*kết thúc CSS footer*/
+.banner_home_top img{
+    text-align: center;
+}
+.header_main .container{
+    display: flex;
+}
+.header_main .container .header_logo img{
+    padding-left: 180px;
+}
+.header_main .container input{
+    height: 42px;
+    width: 560px;
+}
+.header_main .container form{
+    padding-left: 96px;
+    padding-top: 10px;
+}
+.header_main .container .search_box img{
+    position: absolute;
+    left: 1040px; 
+}
+.header_main .cart img{
+    width: 100px;
+    height: 48px;
+    position: relative;
+    left: 90px;
+    top: 10px;
+}
+.header_bot{
+    width: auto;
+    height: 51px;
+    background-color: rgb(238,240,247);
+}
+.header_bot .container{
+    margin: 0px 185px;
+    display: flex;
+}
+.header_bot .container .left{
+    display: flex;
+}
+.header_bot .container .left .items{
+    padding: 15px 16px;
+    height: 19px;
+    font-weight: 600;
+}
+.header_bot .container .left .items a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(41,50,78);
+    font-weight: 600px;
+}
+.header_bot .container .right{
+    line-height: 4;
+}
+.header_bot .container .right img{
+    margin-left: 15px;
+}
+.banner{
+    display: flex;
+}
+.banner img{
+    margin-left: 10px;
+}
+.banner .center .bot-center{
+    display: flex;
+}
+h3 {
+    font-size: 30px;
+    color: rgb(41,50,78);
+    text-align: center;
+    position: relative;
+}
+h3:before {
+    content: "";
+    height: 11px;
+    width: 430px;
+    background: rgb(221,223,230);
+    position: absolute;
+    top: 2px;
+    left: 0px;
+
+}
+h3:after {
+    content: " ";
+    height: 11px;
+    width: 430px;
+    background: rgb(221,223,230);
+    position: absolute;
+    top: 2px;
+    left: 780px;
+}
